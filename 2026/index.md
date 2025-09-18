@@ -15,4 +15,4 @@ news: 2026
 
 TBA
 
-For more details, see the [Waterloo website](https://cargo.wlu.ca/ICMS2026).
+
