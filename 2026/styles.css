@@ -24,6 +24,10 @@ img {
   max-width: 100%;
 }
 
+td {
+padding: 0 15px;
+}
+
 .container {
   max-width: 960px;
   margin: 0 auto;
