@@ -35,6 +35,10 @@ padding: 0 15px;
   text-align: left;
 }
 
+.past {
+  color: lightgray;
+}
+
 ul, ol {
   padding-left: 2rem;
   font-size: 1.1rem;
