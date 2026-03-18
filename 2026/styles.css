@@ -39,6 +39,12 @@ padding: 0 15px;
   color: lightgray;
 }
 
+.talk {
+  font-weight: bold;
+  font-style: italic;
+  display: block; /* forces newline after */
+}
+
 ul, ol {
   padding-left: 2rem;
   font-size: 1.1rem;
