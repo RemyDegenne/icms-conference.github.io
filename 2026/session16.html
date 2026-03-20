@@ -31,17 +31,43 @@
         <p>This is a general session spanning all topics.</p>
         <h3>Session Talks:</h3>
  
-
-	<ul>
-	  <li><a href="abstracts/NakaiTeruiMikawa.txt"><i>Trajectory Planning and Certification for 3-DOF Robot Manipulators Using Real Quantifier Elimination Based on Comprehensive Gröbner Systems</i></a>
+<details>
+<summary><b>Trajectory Planning and Certification for 3-DOF Robot Manipulators Using Real Quantifier Elimination Based on Comprehensive Gröbner Systems</b><br>
 Yu Nakai (University of Tsukuba), 
 Akira Terui (University of Tsukuba),
-Masahiko Mikawa (University of Tsukuba)</li>
+Masahiko Mikawa (University of Tsukuba)
+</summary>
+<p style="padding-top:1em">
+We propose an algorithm and present its implementation for trajectory planning and certification for 3-DOF robot manipulators. The method uses Real Quantifier Elimination (QE) based on Comprehensive Gröbner Systems (CGS), also known as the CGS-QE method.
+The main advantage of the proposed method is its efficiency in both trajectory planning and solution certification, enabled by the effective use of the CGS.
+First, in trajectory planning, we solve the inverse kinematics problem at each point along the trajectory via Gröbner basis computation. This typically requires calculating the Gröbner basis at every point, which is time-consuming. We prevent recomputation by computing the CGS for a parametric system, with the end-effector coordinates serving as parameters, thereby streamlining the algorithm.
+Second, for certification of solutions to the trajectory planning problem, the CGS-QE method shows that an inverse kinematics solution exists at any point along the end-effector's trajectory, given as parameters. The proposed method certifies solutions for trajectories represented by line segments and cubic natural splines.​
+The proposed method has been implemented using the computer algebra system Risa/Asir, and experimental results are presented.			
+</p>
+</details></br>
+
+<details>
+  <summary><b>WebAssembly for edge scientific computing:neural simulation and Xiangqi (chinese chess)</b><br>Martin D. Pham, Department of Computer Science, University of Toronto.
+  </summary>
+<p style="padding-top:1em">
+We present two applications of WebAssembly for browser-based sci-
+entific computing. We first present a comparison of the Brian library
+extension Brian2WASM to a Rust-based spiking neural network imple-
+mentation compiled to WebAssembly. We discuss the limitations to this
+approach and demonstrate some possible solutions using Rust closures.
+Secondly, we present a WebAssembly module for hyperdimensional com-
+puting on the Xiangqi (Chinese chess) board game. Hyperdimensional
+computing, sometimes called vector symbolic architectures, is a framework
+for representing data as algebraic operations in a high dimensional vector
+spaces (on the order of tens of thousands). We demonstrate preliminary
+results for board state encoding from Forsyth–Edwards notation and dis-
+cuss next steps for implementing a vector symbolic game engine/artificial
+player. Together, these two examples demonstrate how WebAssembly can
+be deployed on the browser for scientific computing.
+</p>
+</details></br>
 
 
-	  <li><a href="abstracts/Pham.txt"><i>WebAssembly for edge scientific computing:neural simulation and Xiangqi (chinese chess)</i></a>, Martin D. Pham, Department of Computer Science, University of Toronto.
-</li>
-	</ul>
       </div>
     </section>
 
